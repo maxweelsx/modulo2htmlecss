@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: auto;
+            font-size: 25px;
+            padding: 10px;
+            font-size: larger;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-variant: normal;
+        }#termos{
+            width: 30px;
+            height: 30px;
+        }
+        legend{
+            font-size: larger;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset >
+        <legend>Formulario de inscrição</legend>
+        <form action="" >
+            <label for="nome">Nome</label>
+           <input type="text" name="dado" id="dado">
+           <br> <br>
+           <label for="e-mail">E-mail</label>
+           <input type="email" name="e-mail" id="e-mail">
+           <br> <br>
+           <label for="telefone">Tel</label>
+           <input type="tel" name="telefone" id="telefone">
+           <br> <br>
+           <label for="number">Idade</label>
+           <input type="number" name="idade" id="idade" min="18"
+           max="100">       <br><br>
+           <label for="bairro">Bairro</label>
+           <select name="bairro" id="bairro">
+            <option value="">selecione</option>
+            <option value="mg">mangabeira</option>
+            <option value="brs">brasilia</option>
+            <option value="tm">tamandari</option>
+            <option value="cis">tomba cis</option>
+            <option value="sim">sim</option>
+            <option value="mt">matinha</option>
+            <option value="pc">ponto central</option>
+        </select>
+        <br><br>
+        <input type="checkbox" name="termos" id="termos" pattern=""  required>
+        <label for=""><a href="termosdeuso.html" target="_blank">termos de uso</a></label>
+           <br> <br>
+           <input type="submit" value="ENVIAR">
+           <input type="reset" value="LIMPAR">
+        </form>
+    </fieldset>
+</body>
+</html>
