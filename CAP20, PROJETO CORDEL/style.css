@@ -42,6 +42,7 @@ h1{
     color: white;
     font-size: 25px;
     padding-left: 30px;
+    margin: auto;
 }
 .imagem{
     
@@ -51,6 +52,10 @@ h1{
     height: 30%;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: auto;
+}
+section.imagem{
+    margin-inline: ;
 }
 #a1:hover{
     text-decoration:underline ;
@@ -71,4 +76,9 @@ section >p{
     background-color: rgba(0, 0, 0, 0.295);
     width: 900px;
     padding: 30px;
+}
+footer{
+    border-radius: 15vh;
+    margin: 5px;
+    padding: 6px;
 }
